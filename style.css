@@ -1,0 +1,148 @@
+
+body {
+	background-color: azure ;
+	color: Black ;
+  font-family: 'Courgette', cursive;    
+  font-size: 17xp;
+}
+h1, h2, h3 {
+}
+ h1  {
+ 	color: pink; 
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 10px; 
+    font-size: 50px; 
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30px;
+
+}
+
+
+h2  {
+     color: Pink ;
+     font-family: 'Dancing Script', cursive;
+     font-size: 30px  ;
+     font-weight: 800;
+}	
+
+a {
+  text-decoration: none; 
+  color: purple ;
+}
+a: hover {
+	color: white ;
+}
+/*Custom design with class*/
+.container {
+	width: 800px;
+	margin: 40px auto;
+	background-color: #ABE4E7;
+	padding: 30px 30px;
+
+}
+
+@media (max-width: 760px)
+ .container {
+ 	  width: 600px;
+   }
+
+}
+
+@media (max-width: 500px)  {
+	.container  {
+		width: 400;
+	}
+}	
+ 
+
+.card-white {
+	background: #C1E9F1; 
+	padding: 50px;
+	box-shadow: 2px 10px 30px rgba(0,0,0,0.3);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+
+}
+
+.btn-blue {
+	background-color: #ABE4E7;
+	color: black   ;
+    padding: 15px 20px;
+    border-radius: 4px;
+
+}
+.btn-blue:hover {
+	background-color: pink;
+	color: black;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+
+}
+
+.list-inline li  {
+	display: inline;
+	padding: 10px;
+
+}
+.list-inline i {
+    font-size: 50px;
+    color: pink;
+
+}
+
+.list-inline i: hover {
+	color: pink; 
+}
+
+/* Design adjustments using id (1%)*/
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
